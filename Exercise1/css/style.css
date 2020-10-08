@@ -1,5 +1,5 @@
 body {
-	margin: 0 ;
+	margin: 0;
 	width: 100%;
 	padding: 0;
 	background: #7a2122 url('../images/body_bg.gif') repeat-x top;
@@ -12,7 +12,7 @@ h1, h2, p, ul, li {
 	margin: 0;
 	padding: 0;
 }
- 
+
 p {
 	font-size: 1.4em;
 	line-height: 1.4em;
@@ -27,14 +27,13 @@ a:link {
 	background: #eee;
 }
 
-
-
 a:visited {
 	color: #ff0000;
 	background: #eee;
 }
 
 /* This rule adds a nice style to our ampersands */
+
 span.amp {
 	font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
 	font-weight: normal;
@@ -58,7 +57,6 @@ span.amp {
 	font-size: 1.4em;
 }
 
- 
 #nav li {
 	display: inline;
 	margin: 0 0 0 20px;
@@ -75,6 +73,7 @@ Because the header content is outside the mainContent <div>,
 we need to use the same "margin: 0 auto" trick to center
 the layout
 */
+
 #mainContent {
 	clear: both;
 	margin: 0 auto;
@@ -89,7 +88,6 @@ the layout
 
 #titleBar img {
 	width: 100%;
-	 
 }
 
 #titleBar h1 {
@@ -109,7 +107,7 @@ the layout
 
 #content {
 	float: right;
-	background: #fff; 
+	background: #fff;
 }
 
 #content h2 {
@@ -141,12 +139,6 @@ the layout
 	padding: 5px;
 }
 
-#port li {
-	margin: 0 10px 20px 0;
-	float: left;
-	border: 5px solid #ddd;
-}
-
 #footer {
 	clear: both;
 	background: #eee;
@@ -155,4 +147,14 @@ the layout
 	text-align: center;
 	color: #777;
 }
- 
+
+#port li.roundImg, #port li.roundImg img {
+	border-radius: 20px;
+}
+
+#port li {
+	border-radius: 0px;
+	margin: 0 10px 20px 0;
+	float: left;
+	border: 5px solid #ddd;
+}
